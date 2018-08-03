@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Help Yourself Quiz</title>
+      <link rel="stylesheet" type="text/css" href="css/questions.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header"><strong>Help Yourself</strong></h1>
+
+      <h1 class="caption"><em>How are you today?</em></h1>
+      <div class="question">
+      <form action="/results" method="post">
+        <h2>Do you often feel good or bad?</h2>
+            <input type="radio" name="feel" value="1">Bad<br>
+            <input type="radio" name="feel" value="0">Good<br>
+        <h2>Are you often stressed?</h2>
+            <input type="radio" name="stress" value="1">Yes<br>
+            <input type="radio" name="stress" value="0"> No<br>
+        <h2>Are you currently having problems with family or friends?</h2>
+          <input type="radio" name="relationship" value="1" >Yes<br>
+          <input type="radio" name="relationship" value="0">No<br>
+        <h2>Have you recently  been involved in a break up, divorce, or death?</h2>
+          <input type="radio" name="hardship" value="1">Yes<br>
+          <input type="radio" name="hardship" value="0">No<br>
+        <h2>Do you feel isolated in your life?</h2>
+          <input type="radio" name="isolated" value="1">Yes<br>
+          <input type="radio" name="isolated" value="0">No<br>
+          <br></br>
+
+          <button type = "submit" class="new"> Feel Better! </button>
+      </form>
+    </div>
+  </div>
+
+  </body>
+</html>

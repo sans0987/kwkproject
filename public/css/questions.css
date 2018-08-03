@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-image: url("https://3.bp.blogspot.com/-eVm5MUyqAOk/WfGoSBAHhLI/AAAAAAAADlE/EwuZ-qT7GD4ANN2WzBt9BGP_1gxNpRmbACLcBGAs/s1600/motivational%2B2.jpg");
+    background-size: cover;
+    color: white;
+    font-family: "Times New Roman", Times, Serif
+}
+
+ button {
+  font-size: 25px;
+  border-radius: 12px;
+  background: white;
+  color: black;
+  text-align: center;
+  width: 250px;
+} 
+
+.question {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, Serif
+}

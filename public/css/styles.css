@@ -1,2 +1,140 @@
-
 /*This is your CSS file */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: indigo;
+  color: white;
+}
+
+body {
+  padding: 25px 25px 25px 25px;
+  text-align: center;
+  background-image: url("https://pixteller.com/assets/storage/designs_images/2017-07-30/12/backgrounds-passion-simple-background-image-1-597da36b1033c.png");
+  background-size: cover;
+  font-family: "Times New Roman", Times, Serif;
+}
+
+ button {
+  font-size: 25px;
+  border-radius: 12px;
+  background: black;
+  color: white;
+  text-align: center;
+  width: 250px;
+} 
+
+img {
+  padding: 25px 30px 25px 30px;
+}
+
+iframe {
+  padding: 25px 30px 25px 30px;
+}
+
+body {
+  border: inset indigo;
+}
+.intro {
+  color: white;
+  text-align: center;
+  border-style: groove;
+  border-width: 10px;
+  border-color: indigo;
+  background: linear-gradient(DeepSkyBlue, Salmon);
+  font-size: 20px;
+}
+
+.different {
+  border-radius: 10px;
+  border: 3px solid black;
+  background-color: white;
+  font-size: 20px;
+}
+
+.important {
+  text-align: center;
+  border-bottom: solid indigo;
+  font-size: 25px;
+}
+
+.humor {
+  text-align: center;
+  border-bottom: solid indigo;
+}
+
+.positive {
+  text-align: center;
+  border-bottom: solid indigo;
+}
+
+.depression {
+  text-align: center;
+  border-bottom: solid indigo;
+}
+
+.anxiety {
+  text-align: center;
+  border-bottom: solid indigo;
+}
+
+.tv {
+  text-align: center;
+  border-bottom: solid indigo;
+}
+
+.anime {
+  text-align: center;
+  border-bottom: solid indigo;
+}
+
+.music {
+  text-align: center;
+  border-bottom: solid indigo;
+}
+
+.healthy {
+  text-align: center;
+  border-bottom: solid indigo;
+}
+
+.unhealthy {
+  text-align: center;
+  border-bottom: solid indigo;
+}
+
+.concerts {
+  text-align: center;
+  border-bottom: solid indigo;
+}
+
+.parks {
+  text-align: center;
+  border-bottom: solid indigo;
+}
+
+.rollercoasters {
+  text-align: center;
+  border-bottom: solid indigo;
+}
+
+.funParks {
+  text-align: center;
+}
+  
